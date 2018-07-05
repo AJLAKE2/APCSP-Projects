@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    font-family: arial;
+}
+#box {
+    width: 320px;
+    border: solid lightGray 1px;
+    padding: 10px;
+    margin: 10% auto auto auto;
+    background-color: white;
+}
+h1 {
+    color: #1b63d6;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.inline {
+    display: inline-block;
+}
+#company {
+    padding-top: 5px;
+}
+#location {
+    color:slategray;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#sponsor {
+    color: #fc6a5d;
+    font-weight: bold;
+}
+.littlebox {
+    padding: 5px; 
+    margin-top: 5px;
+    color: navy;
+    background-color: #f4f4f4;
+    margin-bottom: 15px;
+}
+#content {
+    padding-left: 15px;
+}

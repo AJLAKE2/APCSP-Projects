@@ -1,0 +1,253 @@
+.black {
+    background-color: black;
+}
+#orb {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+#sky {
+    height: 100%;
+    width: 100%;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.sun {
+    background-color: #ffdd00;
+    border: 10px solid #f1c40f;
+}
+.moon {
+    background-color: #bdc3c7;
+    border: 10px solid #eaeff2;
+}
+.night {
+    background-color: #2c3e50;
+}
+.day {
+    background-color: #37d8e6;
+}
+.sun:hover {
+    border: 20px solid #f1c40f;
+}
+.moon:hover {
+    border: 20px solid #eaeff2;
+}
+#moonspot1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#moonspot2 {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#moonspot3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    float: right;
+    margin: 20px;
+}
+#sun2{
+    border-radius: 100%;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 50px 450px auto auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #b4e819;
+    border: 8px solid #7fa50d;
+    transform: rotate(-25deg);
+}
+#sun3{
+    border-radius: 100%;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: -150px auto auto 450px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #fc2525;
+    border: 8px solid #ad1818;
+    transform: rotate(-20deg);
+}
+.removesun {
+    z-index: -1;
+}
+#sun2:hover {
+    border: 16px solid #7fa50d;
+}
+#sun3:hover {
+    border: 16px solid #ad1818;
+}
+.visible {
+    background-color: #eaeff2;
+}
+
+#crescent1 {
+    border-radius: 100%;
+    height: 280px;
+    width: 280px;
+    padding: 20px;
+    margin: -50px auto auto 580px;
+    position: absolute;
+    z-index: 1;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+#moon2 {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    margin: -100px 500px auto auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #e5149f;
+    border: 8px solid #910b64;
+}
+#blackhole1 {
+    border-radius: 100%;
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+    margin: -450px 500px auto auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #000000;
+}
+#blackhole2 {
+    border-radius: 100%;
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+    margin: 40px -650px auto auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #000000;
+}
+#ring1 {
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+    padding: 0px;
+    margin: -85px auto auto -85px;
+    position: relative;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: 10px solid #ba3baf;
+}
+#moon3 {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 0px auto auto 500px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #32aaff;
+    border: 8px solid #196ca8;
+}
+#star1 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: 30px auto auto 400px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+#star2 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: auto auto -100px 400px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+#star3 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: auto auto 350px -80px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+#star4 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: -200px auto auto 200px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+#star5 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: auto auto -100px -100px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+#star6 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: -200px auto auto 600px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+#star7 {
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    margin: auto auto -100px -350px;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #f2f200;
+    border: 2px solid #e2e21d;
+}
+.isvisible {
+    background-color: #2c3e50;
+}
+#moon2:hover {
+    border: 16px solid #910b64;
+}
+#moon3:hover {
+    border: 16px solid #196ca8;
+}
+#blackhole1:hover {
+    border: 16px solid #000000;
+}
+#blackhole2:hover {
+    border: 16px solid #000000;
+}

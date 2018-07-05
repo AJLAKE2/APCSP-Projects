@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+    font-family: arial;
+}
+#box {
+    width: 400px;
+    border: solid lightGray 1px;
+    padding: 10px;
+    margin: 10% auto auto auto;
+    background-color: white;
+}
+h5 {
+    color:slategray;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 3px;
+}
+h6 {
+    color:slategray;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    
+}
+.inline {
+    display: inline-block;
+}
+img {
+    width: 7px;
+    height: 7px;
+    padding-left: 8px;
+}
+
+#box1 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #f9fddd;
+    border: solid #dbe0b8 1px;
+    border-radius: 2px;
+    width: 120px;  
+}
+#box2 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #e8e8e8;
+    border: solid #d4dadd 1px;
+    border-radius: 2px;
+    font-weight: bold;
+    width: 120px;  
+}
+#box3 {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: #f7e2cd;
+    border: solid #efb6b6 1px;
+    border-radius: 2px;
+    font-weight: bold;
+    width: 120px;  
+}
+#spacing {
+    height: 45px;
+}
+.horizontalspace{
+    width: 150px;
+}
+.horizontalspace2{
+    width: 50px;
+}
+.questionbox {
+    padding: 4px; 
+    color: white;
+    border-radius: 5px;
+    background-color: #333333;
+}
+
+.proofreadbox {
+    padding: 4px; 
+    color: darkslategray;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: #f7e2cd;
+    width: 153px;
+}
+#content {
+    padding-left: 15px;
+}
+.text {
+    padding-left: 8px;
+    padding-right: 5px;
+    font-size: 12px;
+}
+.horizontalspace3{
+    width: 62px;
+}
+.bottombox{
+    margin-bottom: 10px;
+}
+.boxoutline {
+    width: 175px;
+    border: solid #e2cfbc 1px;
+    border-radius: 3px;
+}
+.text2 {
+    padding-left: 55px;
+}
+.numbertext{
+    padding-left: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: darkslategray;
+}

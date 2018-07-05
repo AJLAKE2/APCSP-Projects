@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SLAPP_Project</title>
+    <link rel="shortcut icon" href="/client/Slapp%20Logo.png">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="site-nav">
+<!--       <img src="/client/Slapp%20Logo.png" alt="Slapp Logo" style="width:5%;">-->
+        <h1 class="brand">S.L.A.P.P</h1>
+        <h4 class="brand-description"> Shipping &amp; Logistics Analytical Package Protection</h4>
+    </div>
+    
+    <div class="page-content">
+       
+       <div class="map-box border">
+              <div class="card-title">
+                  <h3 class="card-title-text">GPS Location</h3>
+              </div>
+              <div class="card-content">
+                  <div id="map"></div>
+              </div>
+           </div>
+       
+       <div class="sensor-cards" id="row1">
+          
+           <div class="sensor-info-card border">
+              <div class="card-title">
+                  <h3 class="card-title-text">Air Quality</h3>
+              </div>
+              <div class="card-content">
+                  <h4 id="air-quality" class="sensor-data-text"></h4>
+              </div>
+           </div>
+           
+           <div class="sensor-info-card border">
+              <div class="card-title">
+                  <h3 class="card-title-text">Distance</h3>
+              </div>
+              <div class="card-content">
+                  <h4 id="distance" class="sensor-data-text"></h4>
+              </div>
+           </div>
+           
+           <div class="sensor-info-card border">
+              <div class="card-title">
+                  <h3 class="card-title-text">Humidity</h3>
+              </div>
+              <div class="card-content">
+                  <h4 id="humidity" class="sensor-data-text"></h4>
+              </div>
+           </div>
+              
+       </div>
+       <div class="sensor-cards" id="row2">
+           
+           <div class="sensor-info-card border">
+              <div class="card-title">
+                  <h3 class="card-title-text">Temperature</h3>
+              </div>
+              <div class="card-content">
+                  <h4 id="temperature" class="sensor-data-text"></h4>
+              </div>
+           </div>
+           
+           <div class="sensor-info-card border">
+              <div class="card-title">
+                  <h3 class="card-title-text">Accelerometer</h3>
+              </div>
+              <div class="card-content">
+                  <h4 id="accelerometer" class="sensor-data-text"></h4>
+              </div>
+           </div>
+    </div>
+    </div>
+    
+    <footer>
+       <div class="footer-box">
+          <h3>By Austin, Ross, and Patrick</h3> 
+       </div>
+    </footer>
+  
+    <script
+      src="https://code.jquery.com/jquery-3.0.0.min.js"
+      integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+      crossorigin="anonymous">
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSjZiz-vAbHK1PJXG7gU6XhXuOSYQthG8&callback=initMap">
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
